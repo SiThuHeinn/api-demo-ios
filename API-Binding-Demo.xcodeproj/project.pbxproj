@@ -13,6 +13,8 @@
 		DFB54D4327AFC40700B18D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB54D4127AFC40700B18D8F /* Main.storyboard */; };
 		DFB54D4527AFC40800B18D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB54D4427AFC40800B18D8F /* Assets.xcassets */; };
 		DFB54D4827AFC40800B18D8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB54D4627AFC40800B18D8F /* LaunchScreen.storyboard */; };
+		DFB54D5027AFC4EE00B18D8F /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB54D4F27AFC4EE00B18D8F /* HeroViewController.swift */; };
+		DFB54D5227AFC96900B18D8F /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB54D5127AFC96900B18D8F /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DFB54D4427AFC40800B18D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB54D4727AFC40800B18D8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFB54D4927AFC40800B18D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB54D4F27AFC4EE00B18D8F /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		DFB54D5127AFC96900B18D8F /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DFB54D4427AFC40800B18D8F /* Assets.xcassets */,
 				DFB54D4627AFC40800B18D8F /* LaunchScreen.storyboard */,
 				DFB54D4927AFC40800B18D8F /* Info.plist */,
+				DFB54D4F27AFC4EE00B18D8F /* HeroViewController.swift */,
+				DFB54D5127AFC96900B18D8F /* HeroStats.swift */,
 			);
 			path = "API-Binding-Demo";
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB54D5027AFC4EE00B18D8F /* HeroViewController.swift in Sources */,
 				DFB54D4027AFC40700B18D8F /* ViewController.swift in Sources */,
 				DFB54D3C27AFC40700B18D8F /* AppDelegate.swift in Sources */,
+				DFB54D5227AFC96900B18D8F /* HeroStats.swift in Sources */,
 				DFB54D3E27AFC40700B18D8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
